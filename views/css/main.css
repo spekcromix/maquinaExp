@@ -1,0 +1,171 @@
+* { 
+	margin: 0;
+	padding: 0;
+}
+
+
+.mBody, .mSide {
+	display: inline-block;
+	vertical-align: top;
+}
+.mBody {
+	width: 55%;
+	background: #2c3e50;
+	padding: 5px;
+}
+.reca {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	left: 250px;
+	margin: 40px 0;
+	border-radius: 100%;
+	background: #e3d43a;
+	position: absolute;
+}
+.mBody img.prod {
+	width: 19%;
+	height: 150px;
+	margin-bottom: 60px;
+}
+.mSide {
+	width: 20%;
+	background: #e74c3c;
+	height: 100%;
+}
+.inCoin {
+	background: #e3d43a;
+	width: 7px;
+	height: 40px;
+	bottom: 245px;
+	margin-left: 30px;
+	position: absolute;
+}
+.tablero {
+	width: 100%;
+	height: 150px;
+	background: #34495e;
+	margin-bottom: 20px;
+}
+.codigos {
+	text-align: center;
+	width: 100%;
+}
+.codigos .cod {
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 20px;
+	border-radius: 50%;
+	width: 18%;
+	background: #aaa;
+	height: 50px;
+	margin-bottom: 3px;
+}
+
+.sidebar {
+	width: 200px;
+	height: 100%;
+	background: #333;
+	top: 0;
+	transition: all 0.3s;
+	transition: width .3s ease-in;
+}
+.sidebar img {
+	width: 100%;
+}
+.maquina {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.menuDi {
+	transition: all 0.3s;
+	position: absolute;
+	top: 0;
+}
+.menuD {
+	width: 40px;
+	height: 40px;
+}
+
+.reProduct, .cam {
+	margin: 20px 0;
+	width: 300px;
+	height: 100px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+}
+.reProduct {
+	padding: 15px;
+}
+.reProduct img {
+	width: 20%;
+	height: 70px;
+}
+
+.cam {
+	margin-top: 20px;
+	width: 150px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.coP {
+	font-family: Arial;
+	position: absolute;
+	display: inline-block;
+	margin-left: -120px;
+	margin-top: 160px;
+	background: #fff;
+	padding: 7px;
+	border-radius: 8px;
+}
+
+.badge {
+	 position: relative;
+	 padding: 5px;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  color: #fff;
+  background: #e74c3c;
+  border-radius: 100%;
+}
+
+.dinero {
+	top: 0;
+	width: 150px;
+	position: absolute;
+}
+.din {
+	cursor: pointer;
+	width: 100%;
+}
+.tablero {
+	color: #fff;
+	font-family: Arial;
+	font-size: 20px;
+}
+.mb {
+	cursor: pointer;
+	color: #fff;
+	font-family: Arial;
+	line-height: 25px;
+	width: 25px;
+	height: 25px;
+	border-radius: 4px;
+	background: red;
+	margin-left: 10px;
+}
+.cam, .mb {
+	display: inline-block;
+	vertical-align: middle;
+}
+.dinero {
+	display: none;
+}
